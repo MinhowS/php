@@ -5,7 +5,7 @@
  * Date: 2018/1/19
  * Time: 14:46
  */
-echo '字符串的拼接';
+echo '字符串的拼接呢';
 $txt1 = 'Hello world!';
 $txt2 = 'What a nice day！';
 echo $txt1.' '.$txt2;

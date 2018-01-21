@@ -43,3 +43,4 @@ $a= <<<EOF
 EOF;
 // 结束需要独立一行且前后不能空格
 echo $a;
+echo date("Y");

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user</title>
+</head>
+<body>
+<!--使用post的方法传值，传递的内容在浏览器的地址栏不可见，本例中显示  http://127.0.0.1/php/base/user1.php-->
+<p>那么POST是怎么传递数据的呢？<br>
+    他是通过我们看不见的浏览器的请求头文件传递数据的。</p>
+<!--&（and符）-->
+<form action="user1.php" method="post">
+    <p><input type="text" name="username"></p>
+    <p><input type="password" name="pwd"></p>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

@@ -17,4 +17,5 @@ echo '<br />';
 <?php
 echo '<br />';
 echo '如果注释<?php    ?>不会产生影响，相当于不会解析';
+echo 'who say php is so easy?';
 ?>

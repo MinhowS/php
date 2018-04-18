@@ -5,7 +5,7 @@
  * Date: 2018/1/19
  * Time: 10:37
  */
-echo 'var_dump() 会返回变量的数据类型和值';
+echo 'var_dump() 会返回变量的数据类型和值<br>';
 
 echo '1.字符串';
 $x = '5985';
@@ -14,7 +14,7 @@ echo "<br>";
 echo '2.整数';
 $x = 0;
 var_dump($x);
-echo "<br>";
+//echo "<br>";
 $x = -345; // 负数
 var_dump($x);
 echo "<br>";
@@ -48,7 +48,7 @@ class Car {
     }
 }
 
-echo '单双引号的区别';
+echo '单双引号的区别<br>';
 $name = '小明';
 
 echo 'name is $name';//输出 name is $name
